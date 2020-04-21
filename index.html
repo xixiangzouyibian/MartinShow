@@ -6,7 +6,7 @@ layout: default
 			type="application/pdf" 
 			style="width:100%;height:100vh;">
 		<script>
-			$('object').click(function(e) { e.stopPropagation(); return false;});
+			$("object").click(function(e){e.unbind();alert("");})
 		</script>
 	</object>
 </body>
